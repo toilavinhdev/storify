@@ -1,8 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02ACF1E8-07A8-48C6-BFCC-FB0A54AB0213}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-items", "solution-items", "{05DC8A78-E254-4389-A47D-14ECE777C003}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		storify.sln = storify.sln
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storify.Core", "src\Storify.Core\Storify.Core.csproj", "{64B2CFFB-21F4-494D-AEF3-9F203B048B93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storify.Client", "src\Storify.Client\Storify.Client.csproj", "{656BCBB0-4F04-4564-BE9E-044930D8A163}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64B2CFFB-21F4-494D-AEF3-9F203B048B93} = {02ACF1E8-07A8-48C6-BFCC-FB0A54AB0213}
+		{656BCBB0-4F04-4564-BE9E-044930D8A163} = {02ACF1E8-07A8-48C6-BFCC-FB0A54AB0213}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64B2CFFB-21F4-494D-AEF3-9F203B048B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B2CFFB-21F4-494D-AEF3-9F203B048B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B2CFFB-21F4-494D-AEF3-9F203B048B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B2CFFB-21F4-494D-AEF3-9F203B048B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{656BCBB0-4F04-4564-BE9E-044930D8A163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{656BCBB0-4F04-4564-BE9E-044930D8A163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{656BCBB0-4F04-4564-BE9E-044930D8A163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{656BCBB0-4F04-4564-BE9E-044930D8A163}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
